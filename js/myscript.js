@@ -1,3 +1,7 @@
+function hello() {
+  $("input").fadeOut();
+}
+
 (function() {
 
   'use strict';
