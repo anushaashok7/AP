@@ -31,7 +31,8 @@ function() {
   window.addEventListener("scroll", callbackFunc);
 
 })();
-
+/* SCROLL BUTTON
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();

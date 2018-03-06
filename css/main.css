@@ -25,6 +25,8 @@ body {
 .intro a:hover {
   opacity: .5;
 }
+/* SCROLL BUTTON
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 #scroll a {
   padding-top: 60px;
   display: inline-block;
