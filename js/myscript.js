@@ -1,3 +1,12 @@
+/* SCROLL BUTTON
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
 console.log("test");
 
 //'use strict';
@@ -44,12 +53,3 @@ window.addEventListener("resize", callbackFunc);
 console.log('came here 2');
 window.addEventListener("scroll", callbackFunc);
 console.log('came here 3');
-
-/* SCROLL BUTTON
-––––––––––––––––––––––––––––––––––––––––––––––––––*/
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
