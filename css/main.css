@@ -165,6 +165,7 @@ h1 {
 
 .timeline ul li:nth-child(odd) div {
   left: 45px;
+  border-radius: 25px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
@@ -175,6 +176,7 @@ h1 {
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
+  border-radius: 25px;
 }
 
 .timeline ul li:nth-child(even) div::before {
