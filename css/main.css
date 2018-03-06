@@ -113,7 +113,10 @@ h1 {
 }
 
 div.emmy {
-  content:url(https://www.energy.gov/sites/prod/files/styles/borealis_article_hero_respondxl2/public/Noether%20cropped.jpg?itok=orPhDjnj)
+  content:url(https://www.energy.gov/sites/prod/files/styles/borealis_article_hero_respondxl2/public/Noether%20cropped.jpg?itok=orPhDjnj);
+  width:50px;
+  height:100px;
+  text-align: right;
 }
 
 /* TIMELINE
