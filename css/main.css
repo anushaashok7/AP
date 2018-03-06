@@ -18,7 +18,7 @@ body {
 
 .intro {
   background: url(http://res.cloudinary.com/compstak/image/upload/v1405951428/Chalkboard_txp6p3.jpg) center center/ cover no-repeat;  /* fallback for old browsers */
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url(http://res.cloudinary.com/compstak/image/upload/v1405951428/Chalkboard_txp6p3.jpg);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.3) 100%), url(http://res.cloudinary.com/compstak/image/upload/v1405951428/Chalkboard_txp6p3.jpg);
   padding: 100px 0;
 }
 .intro a:hover {
@@ -114,9 +114,6 @@ h1 {
 
 div.emmy {
   content:url(https://www.energy.gov/sites/prod/files/styles/borealis_article_hero_respondxl2/public/Noether%20cropped.jpg?itok=orPhDjnj);
-  width:50px;
-  height:100px;
-  text-align: right;
 }
 
 /* TIMELINE
