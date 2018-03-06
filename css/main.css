@@ -171,7 +171,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent pink transparent transparent;
+  border-color: transparent #F45B69 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
