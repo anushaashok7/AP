@@ -5,7 +5,7 @@ console.log("test");
 var items = [];
 
 function populateItems() {
-  items = document.querySelectorAll(".timeline li");  
+  items = document.querySelectorAll(".timeline li");
 }
 
 // check if an element is in viewport
@@ -46,11 +46,10 @@ window.addEventListener("scroll", callbackFunc);
 console.log('came here 3');
 
 /* SCROLL BUTTON
-––––––––––––––––––––––––––––––––––––––––––––––––––
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
 $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
-*/
