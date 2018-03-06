@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.navbar li {
+  padding: 20px;
+}
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
