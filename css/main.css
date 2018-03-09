@@ -257,3 +257,25 @@ time {
     border-color: transparent #F45B69 transparent transparent;
   }
 }
+
+/* media */
+#mission {
+  background: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+}
+
+#social-buttons button {
+  color: white;
+}
+.btn-twitter {
+ background: #00acee;
+ border-color: #009ad5;
+}
+.btn-facebook {
+ background: #4868ac;
+ border-color: #314776;
+}
+.btn-pinterest {
+ background: #b62f26;
+ border-color: #b62f26;
+}
