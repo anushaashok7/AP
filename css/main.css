@@ -9,14 +9,16 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align:center;
   font-size: normal 16px/1.5;
-  background: #fff;
-  color: #000000;
+  background: url("../images/plain.jpg") center center/ cover no-repeat;
+  color: #99b3e6;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
 img {
   border-radius: 50%;
 }
+
+
 
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
