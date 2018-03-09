@@ -23,13 +23,14 @@ img {
   color: #ffffff;
 }
 
-.image-container {
-    position: relative;
-    width: 200px;
-    height: 300px;
+.image-container ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
 }
 .image-container .after {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -40,6 +41,7 @@ img {
 .image-container:hover .after {
     display: block;
     background: rgba(0, 0, 0, .6);
+
 }
 
 
@@ -142,9 +144,6 @@ h1 {
   color: #2d5986;
 }
 
-/*div.emmy {
-  content:url(https://www.energy.gov/sites/prod/files/styles/borealis_article_hero_respondxl2/public/Noether%20cropped.jpg?itok=orPhDjnj);
-}*/
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -284,7 +283,7 @@ time {
 }
 
 /* media */
-#mission {
+#final {
   background: rgba(32, 35, 41, 0.9);
   color: #ddd;
 }
