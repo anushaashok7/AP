@@ -14,7 +14,9 @@ body {
   overflow-x: hidden;
   padding-bottom: 50px;
 }
-
+img {
+  border-radius: 50%;
+}
 
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
