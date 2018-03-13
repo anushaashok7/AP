@@ -211,7 +211,7 @@ h1 {
 }
 
 .timeline ul li:nth-child(even) div {
-  left: -439px;
+  right: 439px;
   border-radius: 25px;
 }
 
